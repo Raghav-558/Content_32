@@ -65,23 +65,34 @@ h1 {
 
 
 td {
-    border-bottom: 2px solid rgba(235, 234, 237, 1);
+
     padding: 20px;
 }
 
 .line1 {
-    font-family: DM Sans;
+    font-family: "DM Sans", sans-serif;
     font-size: 14px;
     line-height: 26px;
     letter-spacing: 2px;
     text-align: center;
     width: 570px;
     height: 42px;
+    font-weight: 800;
     color: rgba(21, 20, 57, 0.4);
     text-transform: uppercase;
+    border-bottom: 2px solid rgba(235, 234, 237, 1);
 }
 
 .line2 {
+    color: rgba(30, 14, 98, 1);
+    font-family: DM Sans;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    border-bottom: 2px solid rgba(235, 234, 237, 1);
+}
+
+.line6 {
     color: rgba(30, 14, 98, 1);
     font-family: DM Sans;
     font-size: 16px;
@@ -97,12 +108,12 @@ td {
 .box {
     margin-top: 155px;
     background: #EBEAED;
-    width: 270px;
     border-radius: 7px;
+    width: 100%;
 }
 
 h5 {
-    font-family: DM Sans;
+    font-family: "DM Sans", sans-serif;
     font-size: 22px;
     line-height: 32px;
     text-align: left;
@@ -123,9 +134,7 @@ p {
 }
 
 button {
-    padding-left: 50px;
-    padding-right: 50px;
-    height: 40px;
+    padding: 7px 16px 7px 16px;
     background: rgba(37, 218, 197, 1);
     border-radius: 100px;
     border: none;
@@ -133,18 +142,20 @@ button {
     color: white;
     margin-bottom: 30px;
     margin-left: 35px;
+
+    font-family: "DM Sans", sans-serif;
 }
 
-@media (min-width:768px) {
-    .col-md-8 {
+@media (min-width:992px) {
+    .col-lg-8 {
         width: 66.66%;
         padding-left: 12px;
         padding-right: 12px;
     }
 }
 
-@media (min-width:768px) {
-    .col-md-3 {
+@media (min-width:992px) {
+    .col-lg-3 {
         width: 25%;
         padding-left: 12px;
         padding-right: 12px;
